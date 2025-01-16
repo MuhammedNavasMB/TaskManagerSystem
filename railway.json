@@ -1,0 +1,21 @@
+{
+  "builds": [
+    {
+      "src": "TaskManagerSystem.API/TaskManagerSystem.API.csproj",
+      "use": "@railwayapp/dotnet",
+      "commands": [
+        {
+          "name": "dotnet restore",
+          "command": "dotnet restore TaskManagerSystem.API/TaskManagerSystem.API.csproj"
+        },
+        {
+          "name": "dotnet publish",
+          "command": "dotnet publish TaskManagerSystem.API/TaskManagerSystem.API.csproj -c Release -o out --framework net8.0"
+        }
+      ]
+    }
+  ],
+  "start": {
+    "command": "dotnet out/TaskManagerSystem.API.dll"
+  }
+}
