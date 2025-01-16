@@ -1,0 +1,35 @@
+# User-specific files
+.vs/
+.vscode/
+.idea/
+
+# User-specific files for Visual Studio for Mac
+.idea/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer package files
+*.exe
+*.dll
+
+# Windows Installer config files
+*.cab
+*.msi
+
+# Windows Installer build files
+obj/
+bin/
+
+# Windows Installer temp files
+*.pdb
+
+# Windows Installer log files
+*.log
+
+# Windows Installer XML files
+*.wixproj
+*.wixpdb
